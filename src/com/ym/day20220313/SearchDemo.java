@@ -5,17 +5,17 @@ package com.ym.day20220313;
  * @create 2022-03-13 17:48
  * @description
  */
-public class searchDemo {
+public class SearchDemo {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,3,5,6};
-        new searchDemo().search(arr,2);
+        new SearchDemo().search(arr,2);
     }
 
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length-1;
-        int middle=0;
+        int middle;
         while(left<=right){
             middle = left+(right-left)/2;
             if(nums[middle]==target){
