@@ -11,5 +11,6 @@ public class IndexDemo {
         System.out.println("修改1");
         System.out.println("修改2");
         System.out.println("修改3");
+        System.out.println("master修改");
     }
 }
