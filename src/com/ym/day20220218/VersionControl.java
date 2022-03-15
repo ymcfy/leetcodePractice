@@ -6,7 +6,7 @@ package com.ym.day20220218;
  * @description
  */
 public class VersionControl {
-    public boolean isBadVersion(int num){
-        return num == 4||num==5;
+    public boolean isBadVersion(int num) {
+        return num == 4 || num == 5;
     }
 }

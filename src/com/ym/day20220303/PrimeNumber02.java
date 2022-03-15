@@ -11,7 +11,7 @@ public class PrimeNumber02 {
     public static void main(String[] args) {
         int[] a = new int[101];
         int i, j = 2;
-        int step =0;
+        int step = 0;
 
         while (j < 101) {
             if (a[j] == 0) {
