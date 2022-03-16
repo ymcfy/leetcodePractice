@@ -1,4 +1,4 @@
-package com.ym.day20220316;
+package com.ym.no167twosum;
 
 /**
  * @author ym

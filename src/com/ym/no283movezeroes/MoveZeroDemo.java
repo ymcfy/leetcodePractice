@@ -1,21 +1,21 @@
-package com.ym.day20220307;
+package com.ym.no283movezeroes;
 
 /**
  * @author ym
- * @create 2022-03-07 22:57
- * @description
+ * @create 2022-03-16 8:54
+ * @description  演示
  */
-public class MoveZeroesDemo {
-
+public class MoveZeroDemo {
     public static void main(String[] args) {
-        int[] nums = new int[]{1};
-        new MoveZeroesDemo().moveZeroes(nums);
-        for (int num :
-                nums) {
-            System.out.print(num + "\t");
-        }
+        MoveZeroDemo moveZeroDemo = new MoveZeroDemo();
+        int[] nums = new int[]{0,1,0,3,12};
+        moveZeroDemo.moveZeroes(nums);
     }
 
+    /**
+     *
+     * @param nums
+     */
     public void moveZeroes(int[] nums) {
         //两个索引 i与j  j追踪0后面第一个非0  i追踪0
         int i = 0;
