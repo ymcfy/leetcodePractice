@@ -54,10 +54,12 @@ public class Solution extends VersionControl {
 
     public int firstBadVersion(int n) {
         int left = 1;
+
         int right = n;
         while (left < right) {
             int mid = left + (right - left) / 2;
             //返回true   ---   right = mid  左半部分
+            
             if (isBadVersion(mid)) {
                 right = mid;
             } else {                //返回false  ---   left = mid+1 右半部分
