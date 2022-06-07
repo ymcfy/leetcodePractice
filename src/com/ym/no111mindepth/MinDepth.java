@@ -8,6 +8,7 @@ package com.ym.no111mindepth;
 public class MinDepth {
     public int minDepth(TreeNode root) {
         //如果节点为空，那么高度为0
+        //测试测试
         if (root == null) {
             return 0;
         }
